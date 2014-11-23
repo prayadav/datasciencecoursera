@@ -9,7 +9,7 @@ The data for the project can be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  
 Steps
-* First, unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "data".
+* First, unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "samsung_data".
 * Make sure the folder "data" and the run_analysis.R script are both in the current working directory.
 * Import the script(run_analysis.R) into the console (source(r_analysis.R)).. 
 * Two files will be generated in the working directory:
