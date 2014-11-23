@@ -11,5 +11,5 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Steps
 * First, unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "samsung_data".
 * Make sure the folder "samsung_data" and the run_analysis.R script are both in the current working directory.
-* Import the script(run_analysis.R) into the console (source(r_analysis.R)).. 
-* tidy_data.txt will be created.
+* Import the script(run_analysis.R) into the console (source r_analysis.R).
+* tidy_data.txt will be created in working directory.
