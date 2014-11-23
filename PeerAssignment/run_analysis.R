@@ -1,4 +1,3 @@
-# Step1. Merge the training and the test sets.
 
 # Convenience function to read file and return a data frame
 
