@@ -12,14 +12,14 @@ trainingData[,562] <- read_data_asTable("train/Y_train.txt")
 trainingData[,563] <- read_data_asTable("train/subject_train.txt")
 
 
-#  Reads TestData and TestLabel
+#  Reads TestData and TestLabel and store them in respective variables.
 
 testData <- read_data_asTable("test/X_test.txt")
 testData[,562] <- read_data_asTable("test/Y_test.txt")
 testData[,563] <- read_data_asTable("test/subject_test.txt")
 testLabel <- read_data_asTable("test/y_test.txt") 
 
-#Join Training and Test data
+#Merge Training and Test data
 joinData <- rbind(trainingData, testData)
 
 # read activity labels
@@ -56,6 +56,7 @@ for (currentActivityLabel in activityLabels$V2) {
   joinData$activity <- gsub(currentActivity, currentActivityLabel, joinData$activity)
   currentActivity <- currentActivity + 1
 }
+# Transform activity and subject as factors
 joinData$activity <- as.factor(joinData$activity)
 joinData$subject <- as.factor(joinData$subject)
 
